@@ -1,0 +1,32 @@
+.card-img-top{
+    width:220px;
+    height:150px;
+    object-fit: contain;
+    padding-left: 25px;
+    /* display: inline-block;
+    margin: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    border-radius: 25px;
+    text-shadow: 20px black;
+    box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.1); */
+  }
+  /* .col-md-3{
+      position: relative;
+    
+      top: 0%;
+      
+  }  */
+  /* .card-title{
+    text-align: left;
+  } */
+  /* .card{
+      object-fit: contain;
+  } */
+  /* .word-wrap{
+       word-wrap: break-word; 
+      
+  } */

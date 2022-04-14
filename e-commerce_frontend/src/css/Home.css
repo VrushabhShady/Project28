@@ -1,0 +1,32 @@
+.homediv{
+    height: auto;
+    width: auto fit-content;
+    padding: 40px;
+    background: radial-gradient(#fff,#ffd6d6);
+}
+.div1{
+    margin-top: 10vh;
+}
+
+.div1 p{
+    color: black;
+    text-align: left;
+}
+.div .div2{
+    display: inline-block;
+}
+
+
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: white;
+    padding: 8px 30px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #563434;
+}

@@ -1,0 +1,30 @@
+.card_block{
+    display: inline-block;
+    margin: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    border-radius: 25px;
+    text-shadow: 20px black;
+    box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.1);
+}
+.card_block>img{
+    height: 220px;
+    width: 350px;
+}
+
+.product_body{
+    background: radial-gradient(#fff,#ffd6d6);
+}
+.btn{
+    color: white;
+}
+.card_block:hover{
+    transform: translate(2px, 2px);
+}
+.product_row{
+    padding: 50px;
+    align-self: center;
+}

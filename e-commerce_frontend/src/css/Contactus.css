@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+.box {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(#fff,#ffd6d6);
+}
+
+.card {
+    height: 100%;
+    width: 500px;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center
+}
+
+.text p {
+    font-size: 13px;
+    color: #bac4d4;
+    font-weight: 700
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid #e0e3e9;
+    padding: 0 10px;
+    padding-left: 30px;
+    outline: 0;
+    font-size: 13px
+}
+
+
+.input-text {
+    position: relative;
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+input[type="email"] {
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 9px;
+    border: 1px solid #e0e3e9;
+    padding: 0 10px;
+    padding-left: 30px;
+    outline: 0;
+    font-size: 13px
+}
+
+.fa-envelope {
+    position: absolute;
+    left: 14px;
+    cursor: pointer;
+    top: 15px
+}
+
+.fa-user {
+    position: absolute;
+    left: 12px;
+    top: 15px;
+    cursor: pointer;
+    font-size: 15px
+}
+
+
+.fa-message {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    cursor: pointer;
+    font-size: 15px
+}
+
+.fa-lock {
+    position: absolute;
+    left: 12px;
+    top: 15px;
+    cursor: pointer;
+    font-size: 15px
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.buttons button {
+    height: 45px;
+    width: 100%;
+    border: none;
+    background-color: orangered;
+    border-radius: 9px;
+    font-size: 12px;
+    outline: 0;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+.buttons button:hover {
+    background-color: #083c87
+}
